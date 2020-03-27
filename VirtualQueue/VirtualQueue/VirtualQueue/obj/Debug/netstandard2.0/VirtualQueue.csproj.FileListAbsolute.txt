@@ -1,0 +1,14 @@
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\bin\Debug\netstandard2.0\VirtualQueue.deps.json
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\bin\Debug\netstandard2.0\VirtualQueue.dll
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\bin\Debug\netstandard2.0\ref\VirtualQueue.dll
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\bin\Debug\netstandard2.0\VirtualQueue.pdb
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\VirtualQueue.csprojAssemblyReference.cache
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\VirtualQueue.csproj.CoreCompileInputs.cache
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\VirtualQueue.AssemblyInfoInputs.cache
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\VirtualQueue.AssemblyInfo.cs
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\XamlC.stamp
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\VirtualQueue.dll
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\ref\VirtualQueue.dll
+D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\VirtualQueue.pdb

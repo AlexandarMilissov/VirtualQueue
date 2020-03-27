@@ -6,11 +6,13 @@
              mc:Ignorable="d"
              x:Class="VirtualQueue.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+    <StackLayout
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="Start">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Virtual Queue"  />
+        <Button Clicked="Login" Text="Login" />
+        <Button Clicked="Register" Text="Register" />
     </StackLayout>
 
 </ContentPage>

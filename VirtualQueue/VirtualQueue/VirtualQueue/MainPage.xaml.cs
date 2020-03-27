@@ -17,5 +17,14 @@ namespace VirtualQueue
         {
             InitializeComponent();
         }
+
+        private void Login(object sender, EventArgs e)
+        {
+
+        }
+        private void Register(object sender, EventArgs e)
+        {
+
+        }
     }
 }
