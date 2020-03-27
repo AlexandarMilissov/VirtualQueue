@@ -27,5 +27,9 @@ namespace VirtualQueue
         {
             await Navigation.PushModalAsync(new Register());
         }
+        private async void JoinQueue(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new JoinQueue());
+        }
     }
 }

@@ -10,9 +10,24 @@
         <StackLayout
            HorizontalOptions="Center"
            VerticalOptions="Start">
-            <Label Text="Welcome to Virtual Queue"  />
-            <Button Clicked="RegisterUser" Text="Register User" />
-            <Button Clicked="RegisterManager" Text="Register Manager" />
+
+            <Label Text="First Name" x:Name="FirstNameText" />
+            <Entry  x:Name="FirstNameField" />
+
+            <Label Text="Second Name" x:Name="SecondNameText" />
+            <Entry  x:Name="SecondNameField" />
+
+            <Label Text="Last Name" x:Name="LastNameText" />
+            <Entry  x:Name="LastNameField" />
+
+            <Label Text="Email" x:Name="EmailText" />
+            <Entry  x:Name="EmailField"/>
+
+            <Label Text="Phone" x:Name="PhoneText" />
+            <Entry  x:Name="PhoneField" />
+
+            <Button Text="Register" Clicked="Registered"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

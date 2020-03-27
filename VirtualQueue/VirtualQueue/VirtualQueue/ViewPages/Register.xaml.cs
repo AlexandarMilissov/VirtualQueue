@@ -16,13 +16,9 @@ namespace VirtualQueue.ViewPages
         {
             InitializeComponent();
         }
-        private async void RegisterUser(object sender, EventArgs e)
+        private async void Registered(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new RegisterUser());
-        }
-        private async void RegisterManager(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new RegisterManager());
+
         }
     }
 }
