@@ -13,8 +13,8 @@ namespace VirtualQueue.ViewPages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Register : ContentPage
     {
-        const int minStringSize = 1;
-        const int maxStringSize = 10;
+        private static int minStringSize = 1;
+        private static int maxStringSize = 10;
         public Register()
         {
             InitializeComponent();
@@ -29,7 +29,7 @@ namespace VirtualQueue.ViewPages
             bool passwordAcceptable = false;
             
             //check if first name is valid
-            if( IsNameValid(FirstNameField.Text) )
+            if( Validation.IsNameValid(FirstNameField.Text) )
             {
                 FirstNameText.Text = "First Name";
                 firstNameAcceptable = true;
@@ -39,7 +39,7 @@ namespace VirtualQueue.ViewPages
                 FirstNameText.Text = $"Name cannot be null, should be at least {minStringSize} and max {maxStringSize}.";
             }
             //check if second name is valid
-            if ( IsNameValid(SecondNameField.Text) )
+            if ( Validation.IsNameValid(SecondNameField.Text) )
             {
                 SecondNameText.Text = "Second Name";
                 secondNameAcceptable = true;
@@ -49,7 +49,7 @@ namespace VirtualQueue.ViewPages
                 SecondNameText.Text = $"Name cannot be null, should be at least {minStringSize} and max {maxStringSize}.";
             }
             //check if last name is valid
-            if ( IsNameValid(LastNameField.Text) )
+            if ( Validation.IsNameValid(LastNameField.Text) )
             {
                 LastNameText.Text = "Last name";
                 lastNameAcceptable = true;
@@ -60,7 +60,7 @@ namespace VirtualQueue.ViewPages
             }
 
             //check if email is valid
-            if ( IsValidEmail(EmailField.Text) )
+            if ( Validation.IsValidEmail(EmailField.Text) )
             {
                 EmailText.Text = "Email";
                 emailAcceptable = true;
@@ -71,7 +71,7 @@ namespace VirtualQueue.ViewPages
             }
 
             //check if phone is valid
-            if ( IsPhoneValidMatch(PhoneField.Text) )
+            if ( Validation.IsPhoneValidMatch(PhoneField.Text) )
             {
                 PhoneText.Text = "Phone number is invalid";
                 phoneAcceptable = true;
@@ -82,7 +82,7 @@ namespace VirtualQueue.ViewPages
             }
 
             //check if password is valid
-            if ( IsPasswordValid(PhoneField.Text) )
+            if ( Validation.IsPasswordValid(PhoneField.Text) )
             {
                 PasswordText.Text = "Password is invalid";
                 phoneAcceptable = true;
@@ -92,9 +92,6 @@ namespace VirtualQueue.ViewPages
                 PasswordText.Text = "Password is invalid";
             }
 
-
-
-
             if (firstNameAcceptable &&
                 secondNameAcceptable &&
                 lastNameAcceptable &&
@@ -102,64 +99,7 @@ namespace VirtualQueue.ViewPages
                 phoneAcceptable &&
                 passwordAcceptable)
             {
-
-            }
-        }
-
-        bool IsPasswordValid(string password)
-        {
-            if(password == null)
-            {
-                return false;
-            }
-            return true;
-        }
-        bool IsPhoneValidMatch(string phone)
-        {
-            if(phone == null)
-            {
-                return false;
-            }
-            if(phone.Length != 10)
-            {
-                return false;
-            }
-            for(int i = 0; i < 10; i++)
-            {
-                if(phone[i] >= '0' && phone[i] <= '9')
-                {
-
-                }
-                else
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
-        bool IsValidEmail(string email)
-        {
-            try
-            {
-                var addr = new System.Net.Mail.MailAddress(email);
-                return addr.Address == email;
-            }
-            catch
-            {
-                return false;
-            }
-        }
-        bool IsNameValid(string name)
-        {
-            if (name != null &&
-                name.Length > minStringSize &&
-                name.Length < maxStringSize)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
+                //todo: 
             }
         }
     }
