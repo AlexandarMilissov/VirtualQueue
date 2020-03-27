@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rM+S14F7G1wuWiwmZM0vpUNtvV9BKQxte2QURjELqjt2yLcVjvRcM1a30whtChAtS/2Jkl5RZPusWDxNCQhkGA==",
+  "dgSpecHash": "WH+rzQUffv/LPIteal2V0jS5WMkeYnZPHPE2evLjUMaflYKeiLvPOUDal9gIdHGlbXY1hjkeEbjiLnjbeAFb8w==",
   "success": true,
-  "projectFilePath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.iOS\\VirtualQueue.iOS.csproj",
+  "projectFilePath": "C:\\GithHubCodes\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.iOS\\VirtualQueue.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alexm\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Users\\alexm\\.nuget\\packages\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
   ],
   "logs": []
 }

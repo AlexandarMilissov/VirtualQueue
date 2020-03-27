@@ -569,23 +569,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexm\\.nuget\\packages\\": {},
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj",
+      "projectUniqueName": "C:\\GithHubCodes\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj",
       "projectName": "VirtualQueue",
-      "projectPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj",
-      "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
-      "outputPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\obj\\",
+      "projectPath": "C:\\GithHubCodes\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\GithHubCodes\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

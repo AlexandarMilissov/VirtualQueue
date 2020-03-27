@@ -8266,18 +8266,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexm\\.nuget\\packages\\": {},
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\VirtualQueue.UWP.csproj",
+      "projectUniqueName": "C:\\GithHubCodes\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\VirtualQueue.UWP.csproj",
       "projectName": "VirtualQueue.UWP",
-      "projectPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\VirtualQueue.UWP.csproj",
-      "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
-      "outputPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\obj\\",
+      "projectPath": "C:\\GithHubCodes\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\VirtualQueue.UWP.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\GithHubCodes\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8285,7 +8285,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8299,8 +8299,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj": {
-              "projectPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj"
+            "C:\\GithHubCodes\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj": {
+              "projectPath": "C:\\GithHubCodes\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj"
             }
           }
         }

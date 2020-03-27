@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "j09OggInY4PvFzSuu2bnYcaW8VzamzGBTkaKBTpj+WvNfBkFsWDGwEMfID9e3+fXRO/WzS8CMgFqzaVJJ6O4Eg==",
+  "dgSpecHash": "B8supcDK/kSKCcrTtVAdMoEzh/bZx1b1sZVR/XyUgiejs/2QKrDU8dtxVNs8dAj4rSMZSHPE6q0YI/ZsWYN1wA==",
   "success": true,
-  "projectFilePath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.Android\\VirtualQueue.Android.csproj",
+  "projectFilePath": "C:\\GithHubCodes\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.Android\\VirtualQueue.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alexm\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",
@@ -43,7 +43,7 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Users\\alexm\\.nuget\\packages\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
   ],
   "logs": []
 }
