@@ -30,13 +30,21 @@
     <AppXManifest Include="D:\Repos\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2020-03-27T21:25:35.823</Modified>
+=======
+      <Modified>2020-03-27T21:09:35.928</Modified>
+>>>>>>> 5c332d815cdd64644072011e379a443df8fe75e9
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Repos\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\VirtualQueue.UWP.exe">
       <PackagePath>entrypoint\VirtualQueue.UWP.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2020-03-27T21:25:31.152</Modified>
+=======
+      <Modified>2020-03-27T21:09:34.694</Modified>
+>>>>>>> 5c332d815cdd64644072011e379a443df8fe75e9
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -720,7 +728,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repos\VirtualQueue\VirtualQueue\VirtualQueue\bin\Debug\netstandard2.0\VirtualQueue.dll">
       <PackagePath>VirtualQueue.dll</PackagePath>
+<<<<<<< HEAD
       <Modified>2020-03-27T21:25:19.408</Modified>
+=======
+      <Modified>2020-03-27T21:11:34.717</Modified>
+>>>>>>> 5c332d815cdd64644072011e379a443df8fe75e9
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -879,15 +891,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repos\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2020-03-27T21:25:30.646</Modified>
+=======
+      <Modified>2020-03-27T21:09:34.525</Modified>
+>>>>>>> 5c332d815cdd64644072011e379a443df8fe75e9
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repos\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2020-03-27T21:25:30.646</Modified>
+=======
+      <Modified>2020-03-27T21:09:34.525</Modified>
+>>>>>>> 5c332d815cdd64644072011e379a443df8fe75e9
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repos\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2020-03-27T21:25:30.646</Modified>
+=======
+      <Modified>2020-03-27T21:09:34.525</Modified>
+>>>>>>> 5c332d815cdd64644072011e379a443df8fe75e9
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -907,7 +931,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repos\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\Core\VirtualQueue.UWP.exe">
       <PackagePath>VirtualQueue.UWP.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2020-03-27T21:25:35.813</Modified>
+=======
+      <Modified>2020-03-27T21:09:35.924</Modified>
+>>>>>>> 5c332d815cdd64644072011e379a443df8fe75e9
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
