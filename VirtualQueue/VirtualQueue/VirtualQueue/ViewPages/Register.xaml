@@ -26,6 +26,9 @@
             <Label Text="Phone" x:Name="PhoneText" />
             <Entry  x:Name="PhoneField" />
 
+            <Label Text="Password" x:Name="PasswordText" />
+            <Entry  x:Name="PasswordField" />
+
             <Button Text="Register" Clicked="Registered"/>
 
         </StackLayout>
