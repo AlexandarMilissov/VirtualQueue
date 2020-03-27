@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VirtualQueue.ViewPages;
 using Xamarin.Forms;
 
 namespace VirtualQueue
@@ -18,13 +19,13 @@ namespace VirtualQueue
             InitializeComponent();
         }
 
-        private void Login(object sender, EventArgs e)
+        private async void Login(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Login());
         }
-        private void Register(object sender, EventArgs e)
+        private async void Register(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Register());
         }
     }
 }

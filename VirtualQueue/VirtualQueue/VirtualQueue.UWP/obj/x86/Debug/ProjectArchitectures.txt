@@ -1,1 +1,1 @@
-D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\VirtualQueue.UWP.csproj;x86
+D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\VirtualQueue.UWP.csproj;x86

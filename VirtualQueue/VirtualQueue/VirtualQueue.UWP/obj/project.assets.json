@@ -8273,11 +8273,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\VirtualQueue.UWP.csproj",
+      "projectUniqueName": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\VirtualQueue.UWP.csproj",
       "projectName": "VirtualQueue.UWP",
-      "projectPath": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\VirtualQueue.UWP.csproj",
+      "projectPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\VirtualQueue.UWP.csproj",
       "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
-      "outputPath": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\obj\\",
+      "outputPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8299,8 +8299,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj": {
-              "projectPath": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj"
+            "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj": {
+              "projectPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj"
             }
           }
         }

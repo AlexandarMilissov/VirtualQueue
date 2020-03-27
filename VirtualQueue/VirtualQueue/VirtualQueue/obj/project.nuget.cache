@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qRKz27o8JPAXgBCPhoRGzBIJE12tv87tSFjCZzMMpfymh+ckvlGeXPsUNe5iJpA5eynforP1bMb1c6vRxfvY6w==",
+  "dgSpecHash": "BpWkuWGYoShuAqknb4VSWXZPGhNlhQIxI7YIZFFgNXQ9iZLMPcDh7U4SJLTytl3wggtaItxN7ziCQiOaYc26Lg==",
   "success": true,
-  "projectFilePath": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj",
+  "projectFilePath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexm\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\alexm\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

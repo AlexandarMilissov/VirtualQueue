@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=e360e0fa-ec3c-419c-9b0d-47c2f8f64991</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\VirtualQueue.UWP.exe">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\VirtualQueue.UWP.exe">
       <PackagePath>entrypoint\VirtualQueue.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexm\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
@@ -538,7 +538,7 @@
     <AppxPackagedFile Include="C:\Users\alexm\.nuget\packages\xamarin.forms\4.4.0.991265\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue\bin\Debug\netstandard2.0\VirtualQueue.dll">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\bin\Debug\netstandard2.0\VirtualQueue.dll">
       <PackagePath>VirtualQueue.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
@@ -550,127 +550,127 @@
     <AppxPackagedFile Include="C:\Users\alexm\.nuget\packages\xamarin.forms\4.4.0.991265\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\VirtualQueue.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\VirtualQueue.UWP.xr.xml">
       <PackagePath>VirtualQueue.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
@@ -682,10 +682,10 @@
     <AppxPackagedFile Include="C:\Users\alexm\.nuget\packages\microsoft.ui.xaml\2.1.190606001\build\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\HackCrisis\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\Core\VirtualQueue.UWP.exe">
+    <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\bin\x86\Debug\Core\VirtualQueue.UWP.exe">
       <PackagePath>VirtualQueue.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

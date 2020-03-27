@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U1CSggA1x4F8i6tjS7PvgrOuH18Prf2of6fDnsHjfFppoda5U9cO/pjBunCR2YBc5gHGG4+9knMxnOMxFqBleg==",
+  "dgSpecHash": "j09OggInY4PvFzSuu2bnYcaW8VzamzGBTkaKBTpj+WvNfBkFsWDGwEMfID9e3+fXRO/WzS8CMgFqzaVJJ6O4Eg==",
   "success": true,
-  "projectFilePath": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue.Android\\VirtualQueue.Android.csproj",
+  "projectFilePath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.Android\\VirtualQueue.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexm\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

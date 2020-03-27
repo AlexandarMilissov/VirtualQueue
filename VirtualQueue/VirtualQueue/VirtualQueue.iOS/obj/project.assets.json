@@ -1024,11 +1024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue.iOS\\VirtualQueue.iOS.csproj",
+      "projectUniqueName": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.iOS\\VirtualQueue.iOS.csproj",
       "projectName": "VirtualQueue.iOS",
-      "projectPath": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue.iOS\\VirtualQueue.iOS.csproj",
+      "projectPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.iOS\\VirtualQueue.iOS.csproj",
       "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
-      "outputPath": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue.iOS\\obj\\",
+      "outputPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1049,8 +1049,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj": {
-              "projectPath": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj"
+            "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj": {
+              "projectPath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pb3J2Pl6FF1n1xUl14vinkfKedFMOLYNvtGptd5TGd5M/O3geMwqqfnx6/mVsdlM3LL+0II5X8eIfJOElEF3Ig==",
+  "dgSpecHash": "rM+S14F7G1wuWiwmZM0vpUNtvV9BKQxte2QURjELqjt2yLcVjvRcM1a30whtChAtS/2Jkl5RZPusWDxNCQhkGA==",
   "success": true,
-  "projectFilePath": "D:\\HackCrisis\\VirtualQueue\\VirtualQueue\\VirtualQueue.iOS\\VirtualQueue.iOS.csproj",
+  "projectFilePath": "D:\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.iOS\\VirtualQueue.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexm\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
