@@ -5,12 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="VirtualQueue.ViewPages.Register">
+    
     <ContentPage.Content>
         <StackLayout
-            HorizontalOptions="Center"
-            VerticalOptions="Start">
-            <Label Text=""  />
-            <Entry Text="I am an Entry" />
+           HorizontalOptions="Center"
+           VerticalOptions="Start">
+            <Label Text="Welcome to Virtual Queue"  />
+            <Button Clicked="RegisterUser" Text="Register User" />
+            <Button Clicked="RegisterManager" Text="Register Manager" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

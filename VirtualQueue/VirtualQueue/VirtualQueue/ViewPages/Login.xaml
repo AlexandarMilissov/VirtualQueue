@@ -5,11 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="VirtualQueue.ViewPages.Login">
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout
+           HorizontalOptions="Center"
+           VerticalOptions="Start">
+            <Label Text="Welcome to Virtual Queue"  />
+            <Button Clicked="LoginUser" Text="Login User" />
+            <Button Clicked="LoginManager" Text="Login Manager" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

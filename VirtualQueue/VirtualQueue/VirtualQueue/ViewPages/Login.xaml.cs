@@ -16,5 +16,13 @@ namespace VirtualQueue.ViewPages
         {
             InitializeComponent();
         }
+        private async void LoginUser(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new LoginUser());
+        }
+        private async void LoginManager(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new LoginManager());
+        }
     }
 }

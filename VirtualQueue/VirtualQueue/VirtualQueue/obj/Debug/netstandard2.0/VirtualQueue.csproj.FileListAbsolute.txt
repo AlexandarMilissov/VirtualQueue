@@ -28,3 +28,7 @@ D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\
 D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\VirtualQueue.pdb
 D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\ViewPages\Login.xaml.g.cs
 D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\ViewPages\Register.xaml.g.cs
+D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\ViewPages\RegisterManager.xaml.g.cs
+D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\ViewPages\RegisterUser.xaml.g.cs
+D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\ViewPages\LoginManager.xaml.g.cs
+D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\ViewPages\LoginUser.xaml.g.cs
