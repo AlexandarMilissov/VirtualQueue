@@ -12,6 +12,7 @@
         <Label Text="Welcome to Virtual Queue"  />
         <Button Clicked="Login" Text="Login" />
         <Button Clicked="Register" Text="Register" />
+        <Button Clicked="JoinQueue" Text="Join Queue" />
     </StackLayout>
 
 </ContentPage>

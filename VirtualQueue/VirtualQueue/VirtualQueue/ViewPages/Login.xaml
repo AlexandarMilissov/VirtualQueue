@@ -5,14 +5,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="VirtualQueue.ViewPages.Login">
+
+    <StackLayout
+            HorizontalOptions="Center"
+            VerticalOptions="Start">
+    </StackLayout>
     
-    <ContentPage.Content>
-        <StackLayout
-           HorizontalOptions="Center"
-           VerticalOptions="Start">
-            <Label Text="Welcome to Virtual Queue"  />
-            <Button Clicked="LoginUser" Text="Login User" />
-            <Button Clicked="LoginManager" Text="Login Manager" />
-        </StackLayout>
-    </ContentPage.Content>
 </ContentPage>

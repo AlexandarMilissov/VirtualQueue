@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace VirtualQueue.ViewPages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class RegisterUser : ContentPage
+    public partial class JoinQueue : ContentPage
     {
-        public RegisterUser()
+        public JoinQueue()
         {
             InitializeComponent();
         }
