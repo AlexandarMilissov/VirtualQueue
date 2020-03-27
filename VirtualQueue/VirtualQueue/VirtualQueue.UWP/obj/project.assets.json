@@ -8266,18 +8266,22 @@
     ]
   },
   "packageFolders": {
+
     "C:\\Users\\Admin\\.nuget\\packages\\": {},
+
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+
       "projectUniqueName": "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\VirtualQueue.UWP.csproj",
       "projectName": "VirtualQueue.UWP",
       "projectPath": "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\VirtualQueue.UWP.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue.UWP\\obj\\",
+
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8285,7 +8289,9 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
+
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8299,8 +8305,10 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
+
             "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj": {
               "projectPath": "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj"
+
             }
           }
         }

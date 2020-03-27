@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+
     "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj": {}
   },
   "projects": {
@@ -12,13 +13,16 @@
         "projectPath": "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue\\obj\\",
+
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -51,11 +55,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.5.1, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.6.0.494-pre2, )"
+              "version": "[4.4.0.991265, )"
             }
           },
           "imports": [

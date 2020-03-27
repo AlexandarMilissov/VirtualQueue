@@ -1934,12 +1934,15 @@
     ]
   },
   "packageFolders": {
+
     "C:\\Users\\Admin\\.nuget\\packages\\": {},
+
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+
       "projectUniqueName": "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue.Android\\VirtualQueue.Android.csproj",
       "projectName": "VirtualQueue.Android",
       "projectPath": "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue.Android\\VirtualQueue.Android.csproj",
@@ -1951,6 +1954,7 @@
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
+
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1965,6 +1969,7 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
+
             "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj": {
               "projectPath": "D:\\Repos\\VirtualQueue\\VirtualQueue\\VirtualQueue\\VirtualQueue.csproj"
             }
