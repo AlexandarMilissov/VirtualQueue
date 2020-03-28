@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Collections.Generic;
 using System.Web.Http;
 
 namespace VQServer.Controllers
@@ -10,9 +6,31 @@ namespace VQServer.Controllers
     public class DataController : ApiController
     {
         // GET api/<controller>
-        public List<Models.Users> Get()
+        [Route("api/Users")]
+        [HttpGet]
+        public List<Models.Users> GetUsers()
         {
-            return ;
+            List <Models.Users> users = new List<Models.Users>();
+            
+            return users;
+        }
+
+        [Route("api/Managers")]
+        [HttpGet]
+        public List<Models.Managers> GetManagers()
+        {
+            List<Models.Managers> managers = new List<Models.Managers>();
+
+            return managers;
+        }
+
+        [Route("api/Queues")]
+        [HttpGet]
+        public List<Models.Queues> GetQueues()
+        {
+            List<Models.Queues> queues= new List<Models.Queues>();
+
+            return queues;
         }
 
         // GET api/<controller>/5
