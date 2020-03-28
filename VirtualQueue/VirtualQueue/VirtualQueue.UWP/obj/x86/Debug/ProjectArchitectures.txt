@@ -1,1 +1,1 @@
-D:\Repos\VirtualQueue\VirtualQueue\VirtualQueue.UWP\VirtualQueue.UWP.csproj;x86
+C:\GithHubCodes\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue.UWP\VirtualQueue.UWP.csproj;x86
