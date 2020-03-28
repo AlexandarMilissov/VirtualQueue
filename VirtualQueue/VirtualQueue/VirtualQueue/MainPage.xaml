@@ -9,7 +9,18 @@
     <StackLayout
            HorizontalOptions="Center"
            VerticalOptions="End">
+        
         <Label Text="Welcome to VirtualQueue!" FontSize="50" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Start" FontAttributes="Bold" Padding="0,0,0,200" TextColor="#000000"  />
+
+        <StackLayout>
+            <Entry x:Name="SearchFilter" TextChanged="TextChanged"/>
+            <ListView 
+                x:Name="ViewItems"
+                ItemsSource="{Binding Places}"
+                ItemTapped="SearchItemTapped">
+            </ListView>
+        </StackLayout>
+        
         <Button Clicked="Login" Text="Login" FontSize="30" />
         <Button Clicked="Register" Text="Register" FontSize="30" />
         <Button Clicked="JoinQueue" Text="Join Queue" Margin="0,0,0,50" FontSize="30" />
