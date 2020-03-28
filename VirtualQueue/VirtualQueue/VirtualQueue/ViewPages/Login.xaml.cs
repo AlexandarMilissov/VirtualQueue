@@ -25,7 +25,8 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                EmailText.Text = "Email seems to be invalid";
+                EmailError.IsVisible = true;
+                EmailError.Text = "Email seems to be invalid";
             }
 
             //check if password is valid
@@ -36,7 +37,8 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                PasswordText.Text = "Password is invalid";
+                PasswordError.IsVisible = true;
+                PasswordError.Text = "Password is invalid";
             }
 
 
