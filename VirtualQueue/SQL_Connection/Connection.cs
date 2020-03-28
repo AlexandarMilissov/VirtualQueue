@@ -9,7 +9,7 @@ namespace SQL_Connection
 {
     public class DB_Connection : DbContext
     {
-        protected void GetConnectionString(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=VirtualQueueDB;Trusted_Connection=True;Integrated Security = True;");
         }
