@@ -1,46 +1,23 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
+using SQL_Connection.Entities;
+using SQL_Connection;
+using System.Linq;
 
 namespace VQServer.Controllers
 {
     public class DataController : ApiController
     {
         // GET api/<controller>
-        [Route("api/Users")]
+        [Route("api/queues")]
         [HttpGet]
-        public List<Models.Users> GetUsers()
+        public List<Queue> GetUsers()
         {
-            List <Models.Users> users = new List<Models.Users>();
-            
-            return users;
+            SQL_Connection.DB_Connection DBAccess = new DB_Connection();
+            return DBAccess.Queues.Select(u => new Queue() { Id = u.Id, LocationAddress = u.LocationAddress, LocationName = u.LocationName, Manager = u.Manager, Users = u.Users}).ToList<Queue>();
         }
-
-        [Route("api/Managers")]
-        [HttpGet]
-        public List<Models.Managers> GetManagers()
-        {
-            List<Models.Managers> managers = new List<Models.Managers>();
-
-            return managers;
-        }
-
-        [Route("api/Queues")]
-        [HttpGet]
-        public List<Models.Queues> GetQueues()
-        {
-            List<Models.Queues> queues= new List<Models.Queues>();
-
-            return queues;
-        }
-
-        // GET api/<controller>/5
-        public string Get(int id)
-        {
-            return "value";
-        }
-
         // POST api/<controller>
-        public void Post([FromBody]string value)
+        public void Register([FromBody]string value)
         {
         }
 
