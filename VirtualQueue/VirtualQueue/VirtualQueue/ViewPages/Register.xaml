@@ -14,21 +14,27 @@
 
                 <Label Text="First Name:" x:Name="FirstNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10" />
                 <Entry  x:Name="FirstNameField" FontSize="24" Margin="0,0,0,10" />
+                <Label x:Name="FirstNameError" IsVisible="False" TextColor="#FF0000" Margin="0,-15,0,0" FontSize="15" />
 
                 <Label Text="Second Name:" x:Name="SecondNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10" />
                 <Entry  x:Name="SecondNameField" FontSize="24" Margin="0,0,0,10" />
+                <Label x:Name="SecondNameError" IsVisible="False" TextColor="#FF0000" Margin="0,-15,0,0" FontSize="15"/>
 
                 <Label Text="Last Name:" x:Name="LastNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
                 <Entry  x:Name="LastNameField" FontSize="24" Margin="0,0,0,10" />
+                <Label x:Name="LastNameError" IsVisible="False" TextColor="#FF0000" Margin="0,-15,0,0" FontSize="15"/>
 
                 <Label Text="Email:" x:Name="EmailText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
                 <Entry  x:Name="EmailField" Keyboard="Email" FontSize="24" Margin="0,0,0,10"/>
+                <Label x:Name="EmailError" IsVisible="False" TextColor="#FF0000" Margin="0,-15,0,0" FontSize="15"/>
 
                 <Label Text="Phone:" x:Name="PhoneText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
                 <Entry  x:Name="PhoneField" Keyboard="Telephone" FontSize="24" Margin="0,0,0,10" />
+                <Label x:Name="PhoneError" IsVisible="False" TextColor="#FF0000" Margin="0,-15,0,0" FontSize="15"/>
 
                 <Label Text="Password:" x:Name="PasswordText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
                 <Entry  x:Name="PasswordField" IsPassword="True" FontSize="24"/>
+                <Label x:Name="PasswordError" IsVisible="True" TextColor="#FF0000" Margin="0,-15,0,0" FontSize="15"/>
 
                 <Button Text="Register" Clicked="Registered" HorizontalOptions="End" FontSize="20" FontAttributes="Bold" BackgroundColor="#1BD8C9" TextColor="#FFFFFF"/>
 

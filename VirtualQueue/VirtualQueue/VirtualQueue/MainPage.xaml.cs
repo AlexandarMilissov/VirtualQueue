@@ -27,7 +27,6 @@ namespace VirtualQueue
             //based on SearchFilter.Text
 
 
-            searchedItems.Add("tuk");
             mainPageViewModel.Places.Clear();
             foreach(var p in searchedItems)
             {

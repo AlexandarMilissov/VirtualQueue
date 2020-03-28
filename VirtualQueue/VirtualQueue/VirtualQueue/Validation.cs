@@ -2,8 +2,8 @@
 {
     public static class Validation
     {
-        private static int minStringSize = 1;
-        private static int maxStringSize = 10;
+        public static int minStringSize = 1;
+        public static int maxStringSize = 10;
 
         public static bool IsPasswordValid(string password)
         {
