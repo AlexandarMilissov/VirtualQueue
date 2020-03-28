@@ -18,7 +18,76 @@ namespace SQL_Connection.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 #pragma warning restore 612, 618
+            modelBuilder.Entity("Database.Entities.Users", b =>
+            {
+                b.Property<int>("userId")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("int")
+                    .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                b.Property<string>("MAC")
+                    .HasColumnType("varchar(max)");
+
+                b.Property<int>("queueId")
+                    .HasColumnType("nvarchar(max)");
+
+                b.HasKey("queueId");
+
+                b.ToTable("Queues");
+            });
+
+            modelBuilder.Entity("Database.Entities.Queues", b =>
+            {
+                b.Property<int>("queueId")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("int")
+                    .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                b.Property<int>("numbeOfEnqueuedPeople")
+                    .HasColumnType("int");
+
+                b.Property<string>("publicPlaceName")
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<string>("publicLocationName")
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<float>("latitude")
+                    .HasColumnType("float");
+
+                b.Property<float>("longtitude")
+                   .HasColumnType("float");
+
+                b.Property<int>("managerId")
+                    .HasColumnType("int");
+
+                b.HasKey("managerId");
+
+                b.ToTable("Managers");
+            });
+
+            modelBuilder.Entity("Database.Entities.Managers", b =>
+            {
+                b.Property<int>("managerId")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("int")
+                    .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                b.Property<string>("firstName")
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<string>("secondName")
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<string>("lastName")
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<string>("email")
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<string>("phoneNumber")
+                    .HasColumnType("varchar(max)");
+            });
         }
     }
 }

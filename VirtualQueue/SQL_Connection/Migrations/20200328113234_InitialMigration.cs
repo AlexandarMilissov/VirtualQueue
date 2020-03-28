@@ -12,25 +12,24 @@ namespace SQL_Connection.Migrations
                 {
                     ManagerId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     firstName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    phoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     secondName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    thirdName = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Managers", x => x.ManagerId);
+                    thirdName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    phoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 });
 
             migrationBuilder.CreateTable(
                 name: "Queues",
                 columns: table => new
                 {
-                    locationName = table.Column<int>(type: "int", nullable: false),
-                    placeName = table.Column<int>(type: "int", nullable: false),
                     queueId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1")
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    numbeOfEnqueuedPeople = table.Column<int>(type: "int", nullable: false),
+                    latitude = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    longtitude = table.Column<string>(type: "float", nullable: false),
+                    locationName = table.Column<string>(type: "float", nullable: false),
+                    placeName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                 },
                 constraints: table =>
                 {
@@ -45,7 +44,9 @@ namespace SQL_Connection.Migrations
                     queueId = table.Column<int>(type: "int", nullable: false),
                     usersId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1")
-                });              
+                });  
+            
+
         }
         protected override void Down(MigrationBuilder migrationBuilder)
         {
