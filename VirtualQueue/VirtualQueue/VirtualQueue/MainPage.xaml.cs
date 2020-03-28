@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQL_Connection.Entities;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -25,7 +26,7 @@ namespace VirtualQueue
             List<string> searchedItems = new List<string>();
             //todo: search database
             //based on SearchFilter.Text
-            searchedItems.Add("tuk");
+            searchedItems.Add("tuk");//delete this when adding db
 
             mainPageViewModel.Places.Clear();
             foreach(var p in searchedItems)
@@ -33,9 +34,10 @@ namespace VirtualQueue
                 mainPageViewModel.Places.Add(p);
             }
         }
-        private void SearchItemTapped(object sender, ItemTappedEventArgs e)
+        private async void SearchItemTapped(object sender, ItemTappedEventArgs e)
         {
             string s = e.Item as string;
+            await Navigation.PushAsync(new QueueViewPage());
         }
 
         private async void Login(object sender, EventArgs e)
@@ -46,9 +48,9 @@ namespace VirtualQueue
         {
             await Navigation.PushAsync(new Register());
         }
-        private async void JoinQueue(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new JoinQueue());
-        }
+        //private async void JoinQueue(object sender, EventArgs e)
+        //{
+        //    await Navigation.PushAsync(new JoinQueue());
+        //}
     }
 }
