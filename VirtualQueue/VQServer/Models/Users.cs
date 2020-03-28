@@ -5,11 +5,12 @@ using System.Web;
 
 namespace VQServer.Models
 {
-    public class Queues
+    public class Users
     {
+        public int userId { get; set; }
+        public string mac { get; set; }
         public int queueId { get; set; }
-        public string locationName { get; set; }
-        public string locationPlace { get; set; }
-        public int managerId { get; set; }
+        public int[] location { get; set; }
+
     }
 }

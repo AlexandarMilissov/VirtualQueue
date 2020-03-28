@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace VQServer
+namespace VQServer.Models
 {
     public class Managers
     {
-        public int ManagerId { get; set; }
+        public int id { get; set; }
         public string firstName { get; set; }
         public string secondName { get; set; }
         public string thirdName { get; set; }
         public string email { get; set; }
-        public string phoneNumber { get; set; }
+        public string phone { get; set; }
     }
 }
