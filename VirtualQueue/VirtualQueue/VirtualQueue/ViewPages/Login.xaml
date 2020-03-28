@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="VirtualQueue.ViewPages.Login">
     <ContentPage.Content>
-        <StackLayout
+        <ScrollView>
+            <StackLayout
             HorizontalOptions="Fill"
             VerticalOptions="Start" Padding="25">
                 <Label Text="Email:" x:Name="EmailText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10" />
@@ -16,6 +17,7 @@
                 <Entry  x:Name="PasswordField" FontSize="24" IsPassword="True" />
 
             <Button Text="Login" Clicked="LoggedIn" HorizontalOptions="End" FontSize="20" FontAttributes="Bold" BackgroundColor="#1BD8C9" TextColor="#FFFFFF"/>
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
