@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VQServer")]
+[assembly: AssemblyTitle("VQServer.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("VQServer")]
+[assembly: AssemblyProduct("VQServer.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("23405cad-f901-4ee8-aa79-ba4bed8f05d2")]
+[assembly: Guid("ba955512-07b1-4ff9-ba78-c57b6ea835dd")]
 
 // Version information for an assembly consists of the following four values:
 //

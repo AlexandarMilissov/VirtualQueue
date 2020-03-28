@@ -13,9 +13,10 @@ namespace SQL_Connection
         public DbSet<Manager> Managers { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Queue> Queues { get; set; }
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=VirtualQueueDB;Trusted_Connection=True;Integrated Security = True;");
+            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=VirtualQueueDB;Trust000ed_Connection=True;Integrated Security = True;");
         }
     }
 }
