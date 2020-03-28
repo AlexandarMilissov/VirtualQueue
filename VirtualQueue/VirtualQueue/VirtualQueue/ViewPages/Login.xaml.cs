@@ -20,6 +20,7 @@ namespace VirtualQueue.ViewPages
             //check if email is valid
             if (Validation.IsValidEmail(EmailField.Text))
             {
+                EmailError.IsVisible = false;
                 EmailText.Text = "Email";
                 emailAcceptable = true;
             }
@@ -32,6 +33,7 @@ namespace VirtualQueue.ViewPages
             //check if password is valid
             if (Validation.IsPasswordValid(PasswordField.Text))
             {
+                PasswordError.IsVisible = false;
                 PasswordText.Text = "Password";
                 passwordAcceptable = true;
             }
