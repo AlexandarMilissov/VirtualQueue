@@ -9,6 +9,7 @@ namespace VirtualQueue
             InitializeComponent();
 
             MainPage = new MainPage();
+            //Application.Current.MainPage = new NavigationPage(MainPage);
         }
 
         protected override void OnStart()
