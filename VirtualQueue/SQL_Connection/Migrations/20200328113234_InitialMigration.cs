@@ -30,6 +30,7 @@ namespace SQL_Connection.Migrations
                     longtitude = table.Column<string>(type: "float", nullable: false),
                     locationName = table.Column<string>(type: "float", nullable: false),
                     placeName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    managerId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -45,9 +46,8 @@ namespace SQL_Connection.Migrations
                     usersId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1")
                 });  
-            
-
         }
+
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
@@ -59,6 +59,5 @@ namespace SQL_Connection.Migrations
             migrationBuilder.DropTable(
                 name: "Users");
         }
-
     }
 }
