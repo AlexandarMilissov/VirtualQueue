@@ -22,6 +22,16 @@
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
+    <Resource Language="DE" />
+    <Resource Language="ES" />
+    <Resource Language="FR" />
+    <Resource Language="IT" />
+    <Resource Language="JA" />
+    <Resource Language="KO" />
+    <Resource Language="PT-BR" />
+    <Resource Language="RU" />
+    <Resource Language="ZH-HANS" />
+    <Resource Language="ZH-HANT" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="VirtualQueue.UWP.exe" EntryPoint="VirtualQueue.UWP.App">
@@ -155,7 +165,7 @@
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="16.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
-    <build:Item Name="OperatingSystem" Version="10.0.18362.650 (WinBuild.160101.0800)" />
+    <build:Item Name="OperatingSystem" Version="10.0.18362.1 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.29903.111" />
     <build:Item Name="ProjectGUID" Value="{D415D7ED-1D6E-47ED-92D5-138FB3B7EC9B}" />
     <build:Item Name="OptimizingToolset" Value="None" />
