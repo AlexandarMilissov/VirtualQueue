@@ -10,9 +10,9 @@ namespace VQServer.Controllers
     public class DataController : ApiController
     {
         // GET api/<controller>
-        public List<Users> Get()
+        public List<Models.Users> Get()
         {
-            return new string[] { "value1", "value2" };
+            return ;
         }
 
         // GET api/<controller>/5
