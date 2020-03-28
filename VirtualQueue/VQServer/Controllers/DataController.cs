@@ -39,6 +39,7 @@ namespace VQServer.Controllers
             curuser.MacAddress = macadd;
             curuser.Queue = user.Queue;
             DBAccess.Add(curuser);
+            DBAccess.SaveChanges();
         }
 
         public void DeleteUserFromQueue(int id)
@@ -53,6 +54,7 @@ namespace VQServer.Controllers
                 }
             }
             DBAccess.Remove(curuser);
+            DBAccess.SaveChanges();
         }
         /*
         // PUT api/<controller>/5
