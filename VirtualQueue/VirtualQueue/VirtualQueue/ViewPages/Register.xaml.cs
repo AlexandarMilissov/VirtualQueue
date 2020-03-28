@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -27,9 +21,9 @@ namespace VirtualQueue.ViewPages
             bool emailAcceptable = false;
             bool phoneAcceptable = false;
             bool passwordAcceptable = false;
-            
+
             //check if first name is valid
-            if( Validation.IsNameValid(FirstNameField.Text) )
+            if (Validation.IsNameValid(FirstNameField.Text))
             {
                 FirstNameText.Text = "First Name";
                 firstNameAcceptable = true;
@@ -39,7 +33,7 @@ namespace VirtualQueue.ViewPages
                 FirstNameText.Text = $"Name cannot be null, should be at least {minStringSize} and max {maxStringSize}.";
             }
             //check if second name is valid
-            if ( Validation.IsNameValid(SecondNameField.Text) )
+            if (Validation.IsNameValid(SecondNameField.Text))
             {
                 SecondNameText.Text = "Second Name";
                 secondNameAcceptable = true;
@@ -49,7 +43,7 @@ namespace VirtualQueue.ViewPages
                 SecondNameText.Text = $"Name cannot be null, should be at least {minStringSize} and max {maxStringSize}.";
             }
             //check if last name is valid
-            if ( Validation.IsNameValid(LastNameField.Text) )
+            if (Validation.IsNameValid(LastNameField.Text))
             {
                 LastNameText.Text = "Last name";
                 lastNameAcceptable = true;
@@ -60,7 +54,7 @@ namespace VirtualQueue.ViewPages
             }
 
             //check if email is valid
-            if ( Validation.IsValidEmail(EmailField.Text) )
+            if (Validation.IsValidEmail(EmailField.Text))
             {
                 EmailText.Text = "Email";
                 emailAcceptable = true;
@@ -71,7 +65,7 @@ namespace VirtualQueue.ViewPages
             }
 
             //check if phone is valid
-            if ( Validation.IsPhoneValidMatch(PhoneField.Text) )
+            if (Validation.IsPhoneValidMatch(PhoneField.Text))
             {
                 PhoneText.Text = "Phone number is invalid";
                 phoneAcceptable = true;
@@ -82,7 +76,7 @@ namespace VirtualQueue.ViewPages
             }
 
             //check if password is valid
-            if ( Validation.IsPasswordValid(PhoneField.Text) )
+            if (Validation.IsPasswordValid(PhoneField.Text))
             {
                 PasswordText.Text = "Password is invalid";
                 phoneAcceptable = true;
