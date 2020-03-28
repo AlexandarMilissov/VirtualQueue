@@ -41,7 +41,7 @@ namespace VQServer.Controllers
             DBAccess.Add(curuser);
         }
 
-        public void DeleteUserFromQueue(int id, [FromBody] User user)
+        public void DeleteUserFromQueue(int id)
         {
             User curuser = new User();
             foreach (User user in DBAccess.Users)
