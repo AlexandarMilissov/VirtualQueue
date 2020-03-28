@@ -7,8 +7,6 @@ namespace VirtualQueue.ViewPages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Register : ContentPage
     {
-        private static int minStringSize = 1;
-        private static int maxStringSize = 10;
         public Register()
         {
             InitializeComponent();
@@ -30,7 +28,8 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                FirstNameText.Text = $"Name cannot be empty, should be at least {minStringSize} and max {maxStringSize}.";
+                FirstNameError.IsVisible = true;
+                FirstNameError.Text = $"Name cannot be empty, should be at least {Validation.minStringSize} and max {Validation.maxStringSize}.";
             }
             //check if second name is valid
             if (Validation.IsNameValid(SecondNameField.Text))
@@ -40,7 +39,8 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                SecondNameText.Text = $"Name cannot be empty, should be at least {minStringSize} and max {maxStringSize}.";
+                SecondNameError.IsVisible = true;
+                SecondNameError.Text = $"Name cannot be empty, should be at least {Validation.minStringSize} and max {Validation.maxStringSize}.";
             }
             //check if last name is valid
             if (Validation.IsNameValid(LastNameField.Text))
@@ -50,7 +50,8 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                LastNameText.Text = $"Name cannot be empty, should be at least {minStringSize} and max {maxStringSize}.";
+                LastNameError.IsVisible = true;
+                LastNameError.Text = $"Name cannot be empty, should be at least {Validation.minStringSize} and max {Validation.maxStringSize}.";
             }
 
             //check if email is valid
@@ -61,7 +62,8 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                EmailText.Text = "Email seems to be invalid";
+                EmailError.IsVisible = true;
+                EmailError.Text = "Email seems to be invalid";
             }
 
             //check if phone is valid
@@ -72,7 +74,8 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                PhoneText.Text = "Phone number is invalid";
+                PhoneError.IsVisible = true;
+                PhoneError.Text = "Phone number is invalid";
             }
 
             //check if password is valid
@@ -83,7 +86,8 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                PasswordText.Text = "Password is invalid";
+                PasswordError.IsVisible = true;
+                PasswordError.Text = "Password is invalid";
             }
 
             if (firstNameAcceptable &&
