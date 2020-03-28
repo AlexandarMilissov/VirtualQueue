@@ -37,9 +37,7 @@ namespace VirtualQueue
         private async void SearchItemTapped(object sender, ItemTappedEventArgs e)
         {
             string s = e.Item as string;
-            Queue q = new Queue();
-            //todo: get info for q from s from DB
-            await Navigation.PushAsync(new QueueViewPage(q));
+            await Navigation.PushAsync(new QueueViewPage());
         }
 
         private async void Login(object sender, EventArgs e)

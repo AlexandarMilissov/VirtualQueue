@@ -64,3 +64,4 @@ D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\
 D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\VirtualQueue.csproj.CoreCompileInputs.cache
 D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\XamlC.stamp
 D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\ViewPages\QueueViewPage.xaml.g.cs
+D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\obj\Debug\netstandard2.0\ViewPages\ManagerView.xaml.g.cs

@@ -12,7 +12,7 @@ namespace VirtualQueue.ViewPages
             InitializeComponent();
         }
 
-        private void LoggedIn(object sender, EventArgs e)
+        private async void LoggedIn(object sender, EventArgs e)
         {
             bool emailAcceptable = false;
             bool passwordAcceptable = false;
@@ -46,7 +46,10 @@ namespace VirtualQueue.ViewPages
 
             if(passwordAcceptable && emailAcceptable)
             {
-                //todo:
+                //todo: seach if user exists
+                //if (true)
+
+                await Navigation.PushAsync(new ManagerView());
             }
         }
     }

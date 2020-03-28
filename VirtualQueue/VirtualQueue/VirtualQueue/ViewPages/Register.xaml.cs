@@ -11,7 +11,7 @@ namespace VirtualQueue.ViewPages
         {
             InitializeComponent();
         }
-        private void Registered(object sender, EventArgs e)
+        private async void Registered(object sender, EventArgs e)
         {
             bool firstNameAcceptable = false;
             bool secondNameAcceptable = false;
@@ -103,7 +103,8 @@ namespace VirtualQueue.ViewPages
                 phoneAcceptable &&
                 passwordAcceptable)
             {
-                //todo: 
+                //todo: add new user
+                await Navigation.PushAsync(new ManagerView());
             }
         }
     }

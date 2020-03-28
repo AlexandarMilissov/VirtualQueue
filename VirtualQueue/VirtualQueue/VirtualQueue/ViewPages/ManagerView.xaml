@@ -4,15 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="VirtualQueue.ViewPages.QueueViewPage">
+             x:Class="VirtualQueue.ViewPages.ManagerView">
     <ContentPage.Content>
         <StackLayout>
-            <Label
-                x:Name="Info"
-                Text="Welcome to Xamarin.Forms!"
+            <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="Add me to this queue" Clicked="AddToQueue" x:Name="AddToQueueButton"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
