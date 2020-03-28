@@ -25,6 +25,7 @@ namespace VirtualQueue.ViewPages
             {
                 FirstNameText.Text = "First Name";
                 firstNameAcceptable = true;
+                FirstNameError.IsVisible = false;
             }
             else
             {
@@ -36,6 +37,7 @@ namespace VirtualQueue.ViewPages
             {
                 SecondNameText.Text = "Second Name";
                 secondNameAcceptable = true;
+                SecondNameError.IsVisible = false;
             }
             else
             {
@@ -45,6 +47,7 @@ namespace VirtualQueue.ViewPages
             //check if last name is valid
             if (Validation.IsNameValid(LastNameField.Text))
             {
+                LastNameError.IsVisible = false;
                 LastNameText.Text = "Last name";
                 lastNameAcceptable = true;
             }
@@ -57,6 +60,7 @@ namespace VirtualQueue.ViewPages
             //check if email is valid
             if (Validation.IsValidEmail(EmailField.Text))
             {
+                EmailError.IsVisible = false;
                 EmailText.Text = "Email";
                 emailAcceptable = true;
             }
@@ -69,6 +73,7 @@ namespace VirtualQueue.ViewPages
             //check if phone is valid
             if (Validation.IsPhoneValidMatch(PhoneField.Text))
             {
+                PhoneError.IsVisible = false;
                 PhoneText.Text = "Phone number is invalid";
                 phoneAcceptable = true;
             }
@@ -81,6 +86,7 @@ namespace VirtualQueue.ViewPages
             //check if password is valid
             if (Validation.IsPasswordValid(PasswordField.Text))
             {
+                PasswordError.IsVisible = false;
                 PasswordText.Text = "Password";
                 passwordAcceptable = true;
             }

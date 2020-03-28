@@ -14,7 +14,7 @@
 
                 <Label Text="First Name:" x:Name="FirstNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10" />
                 <Entry  x:Name="FirstNameField" FontSize="24" Margin="0,0,0,10" />
-                <Label x:Name="FirstNameError" IsVisible="False" TextColor="#FF0000" Margin="0,-15,0,0" FontSize="15"/>
+                <Label x:Name="FirstNameError" IsVisible="False" TextColor="#FF0000" Margin="0,-15,0,0" FontSize="15" />
 
                 <Label Text="Second Name:" x:Name="SecondNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10" />
                 <Entry  x:Name="SecondNameField" FontSize="24" Margin="0,0,0,10" />
