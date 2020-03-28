@@ -7,7 +7,8 @@
 
         public static bool IsPasswordValid(string password)
         {
-            if (password == null)
+            if (password == null ||
+                password.Length == 0)
             {
                 return false;
             }

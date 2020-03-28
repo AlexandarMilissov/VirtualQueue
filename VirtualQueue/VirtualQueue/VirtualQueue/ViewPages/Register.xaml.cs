@@ -76,10 +76,10 @@ namespace VirtualQueue.ViewPages
             }
 
             //check if password is valid
-            if (Validation.IsPasswordValid(PhoneField.Text))
+            if (Validation.IsPasswordValid(PasswordField.Text))
             {
-                PasswordText.Text = "Password is invalid";
-                phoneAcceptable = true;
+                PasswordText.Text = "Password";
+                passwordAcceptable = true;
             }
             else
             {
