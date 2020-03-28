@@ -10,7 +10,7 @@ namespace SQL_Connection
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("DB should be wokrking!");
+            Console.WriteLine("DB should be working!");
         }
     }
 }
