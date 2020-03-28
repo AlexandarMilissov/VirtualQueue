@@ -172,12 +172,16 @@
   <ItemGroup>
     <Compile Include="CheckDB.cs" />
     <Compile Include="Connection.cs" />
-    <Compile Include="Migrations\20200328113234_InitialMigration.cs" />
-    <Compile Include="Migrations\20200328113234_InitialMigration.designer.cs">
-      <DependentUpon>20200328113234_InitialMigration.cs</DependentUpon>
+    <Compile Include="Entities\Manager.cs" />
+    <Compile Include="Entities\Queue.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Migrations\20200328155932_Initial.cs" />
+    <Compile Include="Migrations\20200328155932_Initial.designer.cs">
+      <DependentUpon>20200328155932_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Migration_Snapshot.cs" />
+    <Compile Include="Migrations\DB_ConnectionModelSnapshot.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.1.0.19235.1\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.1.0.19235.1\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
