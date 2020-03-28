@@ -25,7 +25,7 @@ namespace VirtualQueue
             List<string> searchedItems = new List<string>();
             //todo: search database
             //based on SearchFilter.Text
-
+            searchedItems.Add("tuk");
 
             mainPageViewModel.Places.Clear();
             foreach(var p in searchedItems)
@@ -33,9 +33,9 @@ namespace VirtualQueue
                 mainPageViewModel.Places.Add(p);
             }
         }
-        private void SearchItemTapped(object sender, EventArgs e)
+        private void SearchItemTapped(object sender, ItemTappedEventArgs e)
         {
-            throw new NotImplementedException();
+            string s = e.Item as string;
         }
 
         private async void Login(object sender, EventArgs e)
