@@ -30,7 +30,7 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                FirstNameText.Text = $"Name cannot be null, should be at least {minStringSize} and max {maxStringSize}.";
+                FirstNameText.Text = $"Name cannot be empty, should be at least {minStringSize} and max {maxStringSize}.";
             }
             //check if second name is valid
             if (Validation.IsNameValid(SecondNameField.Text))
@@ -40,7 +40,7 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                SecondNameText.Text = $"Name cannot be null, should be at least {minStringSize} and max {maxStringSize}.";
+                SecondNameText.Text = $"Name cannot be empty, should be at least {minStringSize} and max {maxStringSize}.";
             }
             //check if last name is valid
             if (Validation.IsNameValid(LastNameField.Text))
@@ -50,7 +50,7 @@ namespace VirtualQueue.ViewPages
             }
             else
             {
-                LastNameText.Text = $"Name cannot be null, should be at least {minStringSize} and max {maxStringSize}.";
+                LastNameText.Text = $"Name cannot be empty, should be at least {minStringSize} and max {maxStringSize}.";
             }
 
             //check if email is valid

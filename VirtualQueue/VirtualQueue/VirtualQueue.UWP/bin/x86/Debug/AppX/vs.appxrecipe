@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VirtualQueue\VirtualQueue\VirtualQueue\VirtualQueue\bin\Debug\netstandard2.0\VirtualQueue.dll">
       <PackagePath>VirtualQueue.dll</PackagePath>
-      <Modified>2020-03-28T07:55:20.354</Modified>
+      <Modified>2020-03-28T07:59:16.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>

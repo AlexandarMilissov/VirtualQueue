@@ -5,32 +5,34 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="VirtualQueue.ViewPages.Register">
-    
+
     <ContentPage.Content>
-        <StackLayout
-           HorizontalOptions="Fill"
-           VerticalOptions="Start" Padding="25" BackgroundColor="#FFFFFF">
+        <ScrollView>
+            <StackLayout
+             HorizontalOptions="Fill"
+             VerticalOptions="Start" Padding="25" BackgroundColor="#FFFFFF">
 
-            <Label Text="First Name:" x:Name="FirstNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10" />
-            <Entry  x:Name="FirstNameField" FontSize="24" Margin="0,0,0,10" />
+                <Label Text="First Name:" x:Name="FirstNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10" />
+                <Entry  x:Name="FirstNameField" FontSize="24" Margin="0,0,0,10" />
 
-            <Label Text="Second Name:" x:Name="SecondNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10" />
-            <Entry  x:Name="SecondNameField" FontSize="24" Margin="0,0,0,10" />
+                <Label Text="Second Name:" x:Name="SecondNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10" />
+                <Entry  x:Name="SecondNameField" FontSize="24" Margin="0,0,0,10" />
 
-            <Label Text="Last Name:" x:Name="LastNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
-            <Entry  x:Name="LastNameField" FontSize="24" Margin="0,0,0,10" />
+                <Label Text="Last Name:" x:Name="LastNameText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
+                <Entry  x:Name="LastNameField" FontSize="24" Margin="0,0,0,10" />
 
-            <Label Text="Email:" x:Name="EmailText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
-            <Entry  x:Name="EmailField" Keyboard="Email" FontSize="24" Margin="0,0,0,10"/>
+                <Label Text="Email:" x:Name="EmailText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
+                <Entry  x:Name="EmailField" Keyboard="Email" FontSize="24" Margin="0,0,0,10"/>
 
-            <Label Text="Phone:" x:Name="PhoneText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
-            <Entry  x:Name="PhoneField" Keyboard="Telephone" FontSize="24" Margin="0,0,0,10" />
+                <Label Text="Phone:" x:Name="PhoneText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
+                <Entry  x:Name="PhoneField" Keyboard="Telephone" FontSize="24" Margin="0,0,0,10" />
 
-            <Label Text="Password:" x:Name="PasswordText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
-            <Entry  x:Name="PasswordField" IsPassword="True" FontSize="24"/>
+                <Label Text="Password:" x:Name="PasswordText" FontAttributes="Bold" FontSize="30" Margin="0,0,0,-10"/>
+                <Entry  x:Name="PasswordField" IsPassword="True" FontSize="24"/>
 
-            <Button Text="Register" Clicked="Registered" HorizontalOptions="End" FontSize="20" FontAttributes="Bold" BackgroundColor="#1BD8C9" TextColor="#FFFFFF"/>
+                <Button Text="Register" Clicked="Registered" HorizontalOptions="End" FontSize="20" FontAttributes="Bold" BackgroundColor="#1BD8C9" TextColor="#FFFFFF"/>
 
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
