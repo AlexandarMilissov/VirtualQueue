@@ -62,6 +62,7 @@ namespace VirtualQueue.ViewPages
             AddToQueueButton.Clicked -= RemoveFromQueue;
             AddToQueueButton.Clicked += AddToQueue;
             //todo: add this user
+                
             UpdateText();
         }
     }

@@ -26,7 +26,7 @@ namespace VirtualQueue
             List<string> searchedItems = new List<string>();
             //todo: search database
             //based on SearchFilter.Text
-            searchedItems.Add("tuk");
+            searchedItems.Add("tuk");//delete this when adding db
 
             mainPageViewModel.Places.Clear();
             foreach(var p in searchedItems)
