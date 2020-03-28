@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 
 namespace SQL_Connection
 {
-    public class DB_Connection : DbContext
+    public class DB_Connection 
     {
+        protected void GetConnectionString(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=VirtualQueueDB;Trusted_Connection=True;Integrated Security = True;");
+        }
     }
 }
