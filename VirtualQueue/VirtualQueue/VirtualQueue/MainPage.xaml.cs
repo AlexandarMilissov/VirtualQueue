@@ -17,15 +17,15 @@ namespace VirtualQueue
 
         private async void Login(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Login());
+            await Navigation.PushAsync(new Login());
         }
         private async void Register(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Register());
+            await Navigation.PushAsync(new Register());
         }
         private async void JoinQueue(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new JoinQueue());
+            await Navigation.PushAsync(new JoinQueue());
         }
     }
 }
